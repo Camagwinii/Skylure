@@ -17,7 +17,7 @@ if (hour >= 5 && hour < 12) {
   slogan = "Rest easy. We've got your weather."
 }
 
-document.title = `Skylure — ${slogan}`
+document.title = `Skylure : ${slogan}`
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
